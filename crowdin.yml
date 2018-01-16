@@ -1,3 +1,3 @@
 files:
   - source: /src/strings/*.json
-    translation: /src/strings/crowdin/%original_file_name%-%two_letters_code%
+    translation: /src/strings/crowdin/%two_letters_code%.json
