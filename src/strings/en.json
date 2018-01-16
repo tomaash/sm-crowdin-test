@@ -1,488 +1,488 @@
 {
-  shared: {
-    logo: 'StartMonday logo',
-    isRequired: 'is required',
-    enterStageName: 'Enter stage name',
-    addStage: 'Add Stage ...',
-    ok: 'OK',
-    cancel: 'Cancel',
-    edit: 'Edit',
-    delete: 'Delete',
-    save: 'Save',
-    send: 'Send',
-    create: 'Create',
-    saveChanges: 'Save Changes',
-    update: 'Update',
-    candidateFail: 'Failed to load candidate to read the attachments',
-    attachmentFail: 'Attachment not found:',
-    prevPage: 'Previous page',
-    nextPage: 'Next page',
-    backToCandidate: 'Back to the candidate',
-    settings: 'Settings',
-    candidateSettingsDropdown: {
-      edit: 'Edit',
-      duplicate: 'Duplicate',
-      portfolio: 'Portfolio',
-      share: 'Share',
-      preview: 'Preview',
-      intakeEmail: 'Intake E-mail'
-    },
-    logoutConfirm: 'Are you sure you want to logout?',
-    noPermission: 'You do not have permission to {{permission}}',
-    errorRedirecting: '{{error}}. Redirected to job list...',
-    errorProcessing: 'Error processing your request'
-  },
-  login: {
-    goodToSee: 'Good to see you again!',
-    err: {
-      incorrectEmailOrPass: 'Incorrect email address or password. Please try again.',
-      cannotFindUserEmail: 'Cannot find user with this email'
-    },
-    notice: {
-      passwordRecovery: 'A password recovery email was sent to your inbox.'
-    },
-    resetPassword: 'Reset Password',
-    logIn: 'Log in',
-    forgottenPassword: 'Forgotten password',
-    yourEmail: 'Your Email',
-    username: 'Username',
-    password: 'Password',
-    passwordRequired: 'Password is required',
-    passChangeReq: 'Password change request sent succesfully. Please check your inbox and follow instructions.',
-    backToLogin: 'Back to login',
-    forgotPassword: 'Forgot password?'
-  },
-  page404: {
-    code: '404',
-    title: 'There is nothing here',
-    suggestion: 'You can try to going back',
-    link: 'Home'
-  },
-  sidebar: {
-    dropDownTitle: 'Manage Team',
-    accountSettings: 'Account Settings',
-    logOut: 'Log out'
-  },
-  splash: {
-    almost: 'Almost there ...'
-  },
-  verifyForm: {
-    join: 'Join',
-    joinS4E: 'Join StartMonday for Employers',
-    firstName: 'First Name',
-    lastName: 'Last Name',
-    invitationFor: 'Invitation for:',
-    passwordRequired: 'Password is required',
-    newPassword: 'New Password',
-    passwordLength: 'Password length should be between 8 and 50 characters',
-    confirmPassword: 'Confirm Password',
-    passwordsDontMatch: 'Passwords don\'t match',
-    policy: [
-      'By creating your account and using StartMonday, you agree to the',
-      'Terms of Service',
-      'and',
-      'Privacy Policy',
-      'If you do not agree on these terms, you can’t use StartMonday.'
-    ]
-  },
-  jobList: {
-    title: 'Jobs',
-    createJob: 'Create Job',
-    archivedButon: 'Archived Jobs',
-    showJobsFor: 'Show jobs for',
-    allCandidates: 'All Candidates',
-    actionableItems: 'Actionable items',
-    status: {
-      All: 'All',
-      Public: 'Public',
-      InviteOnly: 'Invite-Only',
-      Inactive: 'Inactive',
-      Archived: 'Archived',
-      Draft: 'Draft'
-    }
-  },
-  portfolioForm: {
-    portfolioSent: 'Candidate portfolio successfully sent to {{email}}',
-    notes: 'Notes',
-    notesRequired: 'Please fill in some notes for reviewers',
-    notesLength: 'Notes cannot have more than 1000 characters'
-  },
-  jobForm: {
-    jobFormStageNames: {
-      Info: 'Job Info',
-      Settings: 'Job Settings',
-      Pipeline: 'Pipeline',
-      Publishing: 'Publishing'
-    },
-    createJob: 'Create New Job',
-    editJob: 'Edit Job',
-    jobDescription: 'Job Description',
-    updateDraft: 'Update Draft',
-    notifications: {
-      unsavedWarning: 'You have unsaved changes to this job.',
-      fixErrors: 'Please fix errors first',
-      discard: 'Lose Changes and Exit',
-      save: 'Save Changes and Exit',
-      continue: 'Return to Editing',
-      failedJob: 'Failed to load job {{id}}',
-      duplicateJob: 'Now editing duplicate of job "{{title}}"',
-      failedPipeline: 'Failed to load pipeline for job {{id}}',
-      jobCreated: 'A new job was created successfully: {{title}}',
-      changesSaved: 'Changes were saved successfully',
-      cannotSave: 'Cannot save job',
-      deleteDraft: 'Do you really want to delete draft "{{title}}" ?',
-      jobDeleted: 'Job was successfully deleted: {{title}}'
-    },
-    fieldsInfo: {
-      jobTitle: 'Job Title*',
-      brand: 'Brand*',
-      selectBrand: 'Select brand...',
-      location: 'Location*',
-      shortDescription: 'Short Description*',
-      addJobDescription: 'Add job description...'
-    },
-    fieldsSettings: {
-      selectJobType: 'Select job type',
-      showPayInfo: 'Show Pay Info',
-      currency: 'Currency',
-      from: 'From',
-      to: 'To',
-      time: 'Time',
-      offsite: 'Offsite (home based)',
-      willSponsor: 'Will Sponsor',
-      requireDocuments: 'Require Documents',
-      owner: 'Owner*',
-      selectOwner: 'Select job owner...'
-    },
-    jobTypeOptions: {
-      regular: 'Regular',
-      internship: 'Internship',
-      studentJob: 'Student Job',
-      eventProject: 'Event/Project',
-      volunteer: 'Volunteer'
-    },
-    fullTimeOptions: {
-      true: 'Full-time',
-      false: 'Part-time'
-    },
-    permanentOptions: {
-      true: 'Permanent',
-      false: 'Temporary'
-    },
-    timeUnitOptions: {
-      year: 'Per year',
-      month: 'Per month',
-      week: 'Per week',
-      day: 'Per day',
-      hour: 'Per hour',
-      onetime: 'One time',
-    },
-    fieldsStages: {
-      title: 'Hiring Pipeline Stages'
-    },
-    fieldsPublish: {
-      setStatus: 'Set a status for the job',
-      jobBoards: 'Publish to job boards',
-      location: 'Location',
-      selectLocation: 'Select a location',
-      boardName: 'Job board name',
-      daysAlive: 'Days alive',
-      outsideEU: 'Outside EU',
-      feedId: 'Feed ID',
-      industry: 'Industry',
-      selectIndustry: 'Select an industry',
-      blockStatusInput: 'This job is currently a draft. Please fix validation errors to be able to publish.',
-      statusSelectRemark: 'This job is currently a draft. Please select one of above statuses to be able to publish.',
-      archiveDisabled: 'To be able to archive a job, you need to make a decision about every candidate in the',
-      pipelineLink: ' pipeline ',
-      deleteDraft: 'Delete draft'
-    },
-    validations: {
-      titleRequired: 'Title is required',
-      titleLong: 'Title cannot have more than 100 characters',
-      shortDescriptionRequired: 'Short description is required',
-      shortDescriptionLong: 'Short description cannot have more than 150 characters',
-      feedIdLong: 'Feed ID cannot have more than 10 characters',
-      descriptionRequired: 'Description is required',
-      brandRequired: 'Brand is required',
-      locationRequired: 'Location is required',
-      selectOne: 'Please select one option',
-      daysAliveRequired: 'Days alive is a required field',
-      daysAliveZero: 'Days alive needs to be at least 1'
-    },
-    statusDescription: {
-      Public: 'visible in the StartMonday mobile apps and in your career site widget',
-      InviteOnly: 'only visible to candidates with whom you have shared a link',
-      Inactive: 'the job is temporarily invisible to all job seekers, but your hiring pipeline remains as-is',
-      Archived: 'removed from jobs list (all candidates in the pipeline must be removed first)',
-    }
-  },
-  pipeline: {
-    pipeline: 'Pipeline',
-    resolvedCandidates: 'Resolved Candidates',
-    addCandidate: 'Add Candidate',
-    dragTo: 'Drag candidate to',
-    decisionNames: {
-      hire: 'Hire',
-      reject: 'Disqualify',
-      archive: 'Talent pool'
-    },
-    undo: 'Undo',
-    undoNotice: 'This candidate has already been {{decision}} - you may move them back into the pipeline, but of course if they have been notified already, there is no way to undo that now. You may need to contact them and explain. Proceed?',
-    inboxStageEmpty: 'Added candidates appear here when you\'re not yet ready to contact them. Add candidates by clicking "Add Candidate" in the upper right of this screen. Drag candidates out of here when you have contacted them to advance them to other pipeline stages.',
-    videoStageEmpty: 'Drag candidates here to automatically invite them submit a video.',
-    hired: 'Hired',
-    rejected: 'Rejected',
-    autoContactNotice: 'Moving this candidate out of the inbox may prompt automated contact. Are you sure?'
-  },
-  candidateDetails: {
-    appliedFor: 'applied for',
-    favorite: 'Favorite',
-    noVideo: 'This candidate has not yet submitted a video.',
-    noDocuments: 'This candidate has not yet submitted any documents.',
-    urlCopied: 'We copied the URL of this candidate to your clipboard',
-    attachments: 'Attachments',
-    generalInfo: 'General info',
-    phone: 'Phone',
-    address: 'Address',
-    socialMedia: 'Social media',
-    fluentLanguages: 'Fluent languages',
-    emailAddress: 'Email-address',
-    chat: 'Chat',
-    notes: 'Notes',
-    reviews: 'Reviews',
-    typeNote: 'Type to save a note',
-  },
-  candidateDecision: {
-    sendMessage: 'Send a message',
-    withoutMessage: "Don\'t send any notification",
-    typeHere: 'Type message here...'
-  },
-  documentAdd: {
-    uploadSuccess: 'Successful upload',
-    uploadFailed: 'Attachment upload failed, please try again',
-    addDocuments: 'Add documents',
-    fileTooBig: 'The file you tried to attach was too big. Maximum size is {{size}}'
-  },
-  chat: {
-    noConversation: 'No conversation started yet - type a message below to contact this candidate.',
-    hitEnter: 'Type to reply and hit "Enter" to send',
-    replyError: 'Couldn\'t send reply, please try again'
-  },
-  reports: {
-    ownJobs: 'Your Job Metrics',
-    teamJobs: 'Team Job Metrics',
-    reports: 'Reports'
-  },
-  jobReport: {
-    isLoading: 'Loading your report...',
-    ownTitle: 'View your most important numbers here for your own jobs',
-    teamTitle: "View your most important numbers here for your team's jobs",
-    timeRange: 'Time range:',
-    download: ' Download as .csv',
-    loadReport: 'Load Report',
-    selectRange: 'Select time range',
-    ranges: {
-      '1y': 'Last 1 year',
-      '30d': 'Last 30 days',
-      '7d': 'Last 7 days',
-      '24h': 'Last 24 hours',
-      'custom': 'Custom',
-    },
-    statuses: {
-      'active/public': 'Active / Public',
-      'active/invite-only': 'Active / Invite Only',
-      'inactive': 'Inactive',
-      'archived': 'Archived'
-    },
-    dashboard: {
-      totalApplied: 'Total Applied',
-      totalAddedVideo: 'Total Added Video',
-      totalAddedDoc: 'Total Added Doc',
-      totalDisqualified: 'Total Disqualified',
-      totalHired: 'Total Hired',
-    },
-    headers: {
-      job: 'Job',
-      applied: 'Applied',
-      addedVideo: 'Added video',
-      addedDoc: 'Added doc',
-      noAction: 'No action yet',
-      inProcess: 'In Process',
-      disqualified: 'Disqualified',
-      hired: 'Hired',
-    },
-    csvHeaders: {
-      jobStatus: 'Job Status',
-      jobTitle: 'Job Title',
-      jobBrandName: 'Job Brand Name',
-      jobLocation: 'Job Location',
-      jobOwner: 'Job Owner',
-    }
-  },
-  managePage: {
-    title: 'Manage Team',
-    people: 'People',
-    roles: 'Roles',
-    brands: 'Brands',
-    integrations: 'Integrations'
-  },
-  managePeople: {
-    title: 'People',
-    filter: 'Filter',
-    peopleState: '<b>{{active}}</b> active team members (out of <b>{{max}}</b> max.)',
-    needMore: 'Need more?',
-    increaseSubject: 'I need to increase {{team}} size',
-    headers: {
-      name: 'Name',
-      email: 'Email',
-      actions: 'Actions',
-      role: 'Role'
-    },
-    status: {
-      active: 'Members',
-      unverified: 'Pending',
-      disabled: 'Disabled'
-    }
-  },
-  invitePerson: {
-    invitePeople: 'Invite People',
-    editPerson: 'Edit Person',
-    selectRole: 'Select role',
-    roleRequired: 'Please select role',
-    invite: 'Invite'
-  },
-  manageRoles: {
-    title: 'Manage your roles and permissions in here',
-    addRole: 'Add Role',
-    roleName: 'Role Name*',
-    newRole: 'Add New Role',
-    editRole: 'Edit Role',
-    roleHelp: 'This role can:',
-    roleTakenError: 'Role name already taken, please choose another',
-    deleteConfirm: 'Do you really want to delete role "{{role}}"?',
-    deleteError: 'Role "{{role}}" is assigned to some users, cannot delete',
-    validations: {
-      required: 'Role Name is required',
-      isLength: 'Role Name must be 2 - 50 characters',
-      isLowercase: 'Role Name must be lowercase',
-      matches: 'Role Name must contain only lowercase letters, numbers and dashes'
-    },
-    permissionGroupNames: {
-      team: 'Manage Recruiting Team',
-      branding: 'Manage Job Branding',
-      jobPosting: 'Manage Job Postings',
-      candidates: 'Manage Candidates',
-      reporting: 'Reporting',
-      messageTemplates: 'Message Templates'
-    }
-  },
-  permissionNames: {
-    recruiterteam_authorize: 'Login to recruiter team',
-    recruiterteam_create_edit_recruiters: 'Manage recruiters',
-    recruiterteam_view_recruiters: 'View recruiters',
-    recruiterteam_manage_roles: 'Edit role definitions',
-    recruiterteambrand_create_edit_brands: 'Manage team brands',
-    corpbrand_view: 'View corporate brands',
-    activitylog_view_download: 'View/download user activity audit logs',
-    job_create_edit_drafts: 'Create/edit own jobs',
-    job_publish_own_drafts: 'Publish own drafts',
-    job_view_edit_own_jobs: 'Manage own jobs',
-    job_view_edit_all_jobs: 'View/create/edit jobs for other team members',
-    job_publish_all_drafts: 'Publish drafts of other team members',
-    job_publish_external_boards: 'Publish to external job boards',
-    pipeline_view_own: 'View candidate pipelines and details for own jobs',
-    pipeline_view_all: 'View all pipelines of other team members (excluding my own jobs)',
-    report_view_own_recruiting: 'View reports for own recruiting',
-    report_view_all_recruiting: 'View reports for teamwide recruiting',
-    integration_create_edit: 'Set credentials and defaults for external job boards',
-    multi_manage_users: 'Invite / disable users and set role assignments',
-    multi_manage_brands: 'Create/edit team brands',
-    multi_edit_team_jobs: 'Edit job postings of other team members',
-    message_templates_manage_own: 'Manage own message templates',
-    message_templates_manage_team: 'Manage teamwide message templates'
-  },
-  manageBrands: {
-    title: 'Brands',
-    createNew: 'Create new brand',
-    headers: {
-      name: 'Name',
-      logo: 'Logo',
-      actions: 'Actions'
-    },
-    notifications: {
-      selectionError: 'Error during image selection',
-      coverSize: 'File must be at least 720x400, landscape',
-      logoSize: 'logo must be at least 160px x 160px',
-      logoSquare: 'logo must be square',
-    },
-    brandForm: {
-      newBrand: 'Create New Brand',
-      editBrand: 'Edit Brand',
-      nameLabel: 'Brand Name*',
-      nameRequired: 'Brand name is required',
-      nameLong: 'Brand name cannot have more than 100 characters',
-      corpBrandSelect: 'Select Corp Brand',
-      urlLabel: 'Custom Job Widget URL',
-      urlError: 'Must be a valid URL',
-      primaryColor: 'Primary Color',
-      secondaryColor: 'Secondary Color',
-      textColor: 'Text Color',
-      colorError: 'Expecting 6 digit hex color, like "33aaff"',
-      logo: 'Logo',
-      selectLogo: 'Select Logo',
-      coverImage: 'Cover Image',
-      selectCoverImage: 'Select Cover Image'
-    }
-  },
-  manageTemplates: {
-    title: 'Message Templates',
-    createNew: 'Create new message template',
-    insertVariable: 'Insert variable…',
-    name: 'Name',
-    messageTemplateText: 'Message template text:',
-    unknownVariables: 'Unknown variables',
-    selectReplyTemplate: 'Select reply from a template…'
-  },
-  teamSettings: {
-    duration: {
-      title: 'Default job posting duration',
-      days: 'Days',
-      months: 'Months',
-      years: 'Years'
-    },
-    enablePortfolio: 'Enable Candidate Portfolio',
-    portfolioWarning: 'Please note that Candidate Portfolio is currently in beta stage. It will become a paid feature when released officialy.'
-  },
-  accountSettings: {
-    title: 'Account Settings',
-    notifications: {
-      emailUsed: 'The email entered is already in use',
-      saved: 'Settings saved successfully'
-    },
-    firstName: 'First Name*',
-    firstNameRequired: 'First Name is required',
-    firstNameLength: 'First Name cannot have more than 50 characters',
-    lastName: 'Last Name*',
-    lastNameRequired: 'Last Name is required',
-    lastNameLength: 'Last Name cannot have more than 50 characters',
-    email: 'Email Address*',
-    emailRequired: 'Email Address is required',
-    emailFormat: 'Email is invalid',
-    emailLength: 'Email cannot have more than 254 characters',
-    userInvited: '{{firstName}} {{lastName}} succesfully invited'
-  },
-  passwordSettings: {
-    changePassword: 'Change Password',
-    notifications: {
-      changeSuccess: 'Successfully changed your password',
-      changeError: 'Couldn\'t change your password',
-      passwordChanged: 'Password changed successfully'
-    },
-    password: 'New Password*',
-    passwordRequired: 'Password is required',
-    passwordLength: 'Password length should be between 8 and 50 characters',
-    confirmPassword: 'Confirm Password*',
-    passwordsDifferent: "Passwords don't match"
-  }
+	"shared": {
+		"logo": "StartMonday logo",
+		"isRequired": "is required",
+		"enterStageName": "Enter stage name",
+		"addStage": "Add Stage ...",
+		"ok": "OK",
+		"cancel": "Cancel",
+		"edit": "Edit",
+		"delete": "Delete",
+		"save": "Save",
+		"send": "Send",
+		"create": "Create",
+		"saveChanges": "Save Changes",
+		"update": "Update",
+		"candidateFail": "Failed to load candidate to read the attachments",
+		"attachmentFail": "Attachment not found:",
+		"prevPage": "Previous page",
+		"nextPage": "Next page",
+		"backToCandidate": "Back to the candidate",
+		"settings": "Settings",
+		"candidateSettingsDropdown": {
+			"edit": "Edit",
+			"duplicate": "Duplicate",
+			"portfolio": "Portfolio",
+			"share": "Share",
+			"preview": "Preview",
+			"intakeEmail": "Intake E-mail"
+		},
+		"logoutConfirm": "Are you sure you want to logout?",
+		"noPermission": "You do not have permission to {{permission}}",
+		"errorRedirecting": "{{error}}. Redirected to job list...",
+		"errorProcessing": "Error processing your request"
+	},
+	"login": {
+		"goodToSee": "Good to see you again!",
+		"err": {
+			"incorrectEmailOrPass": "Incorrect email address or password. Please try again.",
+			"cannotFindUserEmail": "Cannot find user with this email"
+		},
+		"notice": {
+			"passwordRecovery": "A password recovery email was sent to your inbox."
+		},
+		"resetPassword": "Reset Password",
+		"logIn": "Log in",
+		"forgottenPassword": "Forgotten password",
+		"yourEmail": "Your Email",
+		"username": "Username",
+		"password": "Password",
+		"passwordRequired": "Password is required",
+		"passChangeReq": "Password change request sent succesfully. Please check your inbox and follow instructions.",
+		"backToLogin": "Back to login",
+		"forgotPassword": "Forgot password?"
+	},
+	"page404": {
+		"code": "404",
+		"title": "There is nothing here",
+		"suggestion": "You can try to going back",
+		"link": "Home"
+	},
+	"sidebar": {
+		"dropDownTitle": "Manage Team",
+		"accountSettings": "Account Settings",
+		"logOut": "Log out"
+	},
+	"splash": {
+		"almost": "Almost there ..."
+	},
+	"verifyForm": {
+		"join": "Join",
+		"joinS4E": "Join StartMonday for Employers",
+		"firstName": "First Name",
+		"lastName": "Last Name",
+		"invitationFor": "Invitation for:",
+		"passwordRequired": "Password is required",
+		"newPassword": "New Password",
+		"passwordLength": "Password length should be between 8 and 50 characters",
+		"confirmPassword": "Confirm Password",
+		"passwordsDontMatch": "Passwords don't match",
+		"policy": [
+			"By creating your account and using StartMonday, you agree to the",
+			"Terms of Service",
+			"and",
+			"Privacy Policy",
+			"If you do not agree on these terms, you can’t use StartMonday."
+		]
+	},
+	"jobList": {
+		"title": "Jobs",
+		"createJob": "Create Job",
+		"archivedButon": "Archived Jobs",
+		"showJobsFor": "Show jobs for",
+		"allCandidates": "All Candidates",
+		"actionableItems": "Actionable items",
+		"status": {
+			"All": "All",
+			"Public": "Public",
+			"InviteOnly": "Invite-Only",
+			"Inactive": "Inactive",
+			"Archived": "Archived",
+			"Draft": "Draft"
+		}
+	},
+	"portfolioForm": {
+		"portfolioSent": "Candidate portfolio successfully sent to {{email}}",
+		"notes": "Notes",
+		"notesRequired": "Please fill in some notes for reviewers",
+		"notesLength": "Notes cannot have more than 1000 characters"
+	},
+	"jobForm": {
+		"jobFormStageNames": {
+			"Info": "Job Info",
+			"Settings": "Job Settings",
+			"Pipeline": "Pipeline",
+			"Publishing": "Publishing"
+		},
+		"createJob": "Create New Job",
+		"editJob": "Edit Job",
+		"jobDescription": "Job Description",
+		"updateDraft": "Update Draft",
+		"notifications": {
+			"unsavedWarning": "You have unsaved changes to this job.",
+			"fixErrors": "Please fix errors first",
+			"discard": "Lose Changes and Exit",
+			"save": "Save Changes and Exit",
+			"continue": "Return to Editing",
+			"failedJob": "Failed to load job {{id}}",
+			"duplicateJob": "Now editing duplicate of job \"{{title}}\"",
+			"failedPipeline": "Failed to load pipeline for job {{id}}",
+			"jobCreated": "A new job was created successfully: {{title}}",
+			"changesSaved": "Changes were saved successfully",
+			"cannotSave": "Cannot save job",
+			"deleteDraft": "Do you really want to delete draft \"{{title}}\" ?",
+			"jobDeleted": "Job was successfully deleted: {{title}}"
+		},
+		"fieldsInfo": {
+			"jobTitle": "Job Title*",
+			"brand": "Brand*",
+			"selectBrand": "Select brand...",
+			"location": "Location*",
+			"shortDescription": "Short Description*",
+			"addJobDescription": "Add job description..."
+		},
+		"fieldsSettings": {
+			"selectJobType": "Select job type",
+			"showPayInfo": "Show Pay Info",
+			"currency": "Currency",
+			"from": "From",
+			"to": "To",
+			"time": "Time",
+			"offsite": "Offsite (home based)",
+			"willSponsor": "Will Sponsor",
+			"requireDocuments": "Require Documents",
+			"owner": "Owner*",
+			"selectOwner": "Select job owner..."
+		},
+		"jobTypeOptions": {
+			"regular": "Regular",
+			"internship": "Internship",
+			"studentJob": "Student Job",
+			"eventProject": "Event/Project",
+			"volunteer": "Volunteer"
+		},
+		"fullTimeOptions": {
+			"true": "Full-time",
+			"false": "Part-time"
+		},
+		"permanentOptions": {
+			"true": "Permanent",
+			"false": "Temporary"
+		},
+		"timeUnitOptions": {
+			"year": "Per year",
+			"month": "Per month",
+			"week": "Per week",
+			"day": "Per day",
+			"hour": "Per hour",
+			"onetime": "One time"
+		},
+		"fieldsStages": {
+			"title": "Hiring Pipeline Stages"
+		},
+		"fieldsPublish": {
+			"setStatus": "Set a status for the job",
+			"jobBoards": "Publish to job boards",
+			"location": "Location",
+			"selectLocation": "Select a location",
+			"boardName": "Job board name",
+			"daysAlive": "Days alive",
+			"outsideEU": "Outside EU",
+			"feedId": "Feed ID",
+			"industry": "Industry",
+			"selectIndustry": "Select an industry",
+			"blockStatusInput": "This job is currently a draft. Please fix validation errors to be able to publish.",
+			"statusSelectRemark": "This job is currently a draft. Please select one of above statuses to be able to publish.",
+			"archiveDisabled": "To be able to archive a job, you need to make a decision about every candidate in the",
+			"pipelineLink": " pipeline ",
+			"deleteDraft": "Delete draft"
+		},
+		"validations": {
+			"titleRequired": "Title is required",
+			"titleLong": "Title cannot have more than 100 characters",
+			"shortDescriptionRequired": "Short description is required",
+			"shortDescriptionLong": "Short description cannot have more than 150 characters",
+			"feedIdLong": "Feed ID cannot have more than 10 characters",
+			"descriptionRequired": "Description is required",
+			"brandRequired": "Brand is required",
+			"locationRequired": "Location is required",
+			"selectOne": "Please select one option",
+			"daysAliveRequired": "Days alive is a required field",
+			"daysAliveZero": "Days alive needs to be at least 1"
+		},
+		"statusDescription": {
+			"Public": "visible in the StartMonday mobile apps and in your career site widget",
+			"InviteOnly": "only visible to candidates with whom you have shared a link",
+			"Inactive": "the job is temporarily invisible to all job seekers, but your hiring pipeline remains as-is",
+			"Archived": "removed from jobs list (all candidates in the pipeline must be removed first)"
+		}
+	},
+	"pipeline": {
+		"pipeline": "Pipeline",
+		"resolvedCandidates": "Resolved Candidates",
+		"addCandidate": "Add Candidate",
+		"dragTo": "Drag candidate to",
+		"decisionNames": {
+			"hire": "Hire",
+			"reject": "Disqualify",
+			"archive": "Talent pool"
+		},
+		"undo": "Undo",
+		"undoNotice": "This candidate has already been {{decision}} - you may move them back into the pipeline, but of course if they have been notified already, there is no way to undo that now. You may need to contact them and explain. Proceed?",
+		"inboxStageEmpty": "Added candidates appear here when you're not yet ready to contact them. Add candidates by clicking \"Add Candidate\" in the upper right of this screen. Drag candidates out of here when you have contacted them to advance them to other pipeline stages.",
+		"videoStageEmpty": "Drag candidates here to automatically invite them submit a video.",
+		"hired": "Hired",
+		"rejected": "Rejected",
+		"autoContactNotice": "Moving this candidate out of the inbox may prompt automated contact. Are you sure?"
+	},
+	"candidateDetails": {
+		"appliedFor": "applied for",
+		"favorite": "Favorite",
+		"noVideo": "This candidate has not yet submitted a video.",
+		"noDocuments": "This candidate has not yet submitted any documents.",
+		"urlCopied": "We copied the URL of this candidate to your clipboard",
+		"attachments": "Attachments",
+		"generalInfo": "General info",
+		"phone": "Phone",
+		"address": "Address",
+		"socialMedia": "Social media",
+		"fluentLanguages": "Fluent languages",
+		"emailAddress": "Email-address",
+		"chat": "Chat",
+		"notes": "Notes",
+		"reviews": "Reviews",
+		"typeNote": "Type to save a note"
+	},
+	"candidateDecision": {
+		"sendMessage": "Send a message",
+		"withoutMessage": "Don't send any notification",
+		"typeHere": "Type message here..."
+	},
+	"documentAdd": {
+		"uploadSuccess": "Successful upload",
+		"uploadFailed": "Attachment upload failed, please try again",
+		"addDocuments": "Add documents",
+		"fileTooBig": "The file you tried to attach was too big. Maximum size is {{size}}"
+	},
+	"chat": {
+		"noConversation": "No conversation started yet - type a message below to contact this candidate.",
+		"hitEnter": "Type to reply and hit \"Enter\" to send",
+		"replyError": "Couldn't send reply, please try again"
+	},
+	"reports": {
+		"ownJobs": "Your Job Metrics",
+		"teamJobs": "Team Job Metrics",
+		"reports": "Reports"
+	},
+	"jobReport": {
+		"isLoading": "Loading your report...",
+		"ownTitle": "View your most important numbers here for your own jobs",
+		"teamTitle": "View your most important numbers here for your team\"s jobs",
+		"timeRange": "Time range:",
+		"download": " Download as .csv",
+		"loadReport": "Load Report",
+		"selectRange": "Select time range",
+		"ranges": {
+			"1y": "Last 1 year",
+			"30d": "Last 30 days",
+			"7d": "Last 7 days",
+			"24h": "Last 24 hours",
+			"custom": "Custom"
+		},
+		"statuses": {
+			"active/public": "Active / Public",
+			"active/invite-only": "Active / Invite Only",
+			"inactive": "Inactive",
+			"archived": "Archived"
+		},
+		"dashboard": {
+			"totalApplied": "Total Applied",
+			"totalAddedVideo": "Total Added Video",
+			"totalAddedDoc": "Total Added Doc",
+			"totalDisqualified": "Total Disqualified",
+			"totalHired": "Total Hired"
+		},
+		"headers": {
+			"job": "Job",
+			"applied": "Applied",
+			"addedVideo": "Added video",
+			"addedDoc": "Added doc",
+			"noAction": "No action yet",
+			"inProcess": "In Process",
+			"disqualified": "Disqualified",
+			"hired": "Hired"
+		},
+		"csvHeaders": {
+			"jobStatus": "Job Status",
+			"jobTitle": "Job Title",
+			"jobBrandName": "Job Brand Name",
+			"jobLocation": "Job Location",
+			"jobOwner": "Job Owner"
+		}
+	},
+	"managePage": {
+		"title": "Manage Team",
+		"people": "People",
+		"roles": "Roles",
+		"brands": "Brands",
+		"integrations": "Integrations"
+	},
+	"managePeople": {
+		"title": "People",
+		"filter": "Filter",
+		"peopleState": "<b>{{active}}</b> active team members (out of <b>{{max}}</b> max.)",
+		"needMore": "Need more?",
+		"increaseSubject": "I need to increase {{team}} size",
+		"headers": {
+			"name": "Name",
+			"email": "Email",
+			"actions": "Actions",
+			"role": "Role"
+		},
+		"status": {
+			"active": "Members",
+			"unverified": "Pending",
+			"disabled": "Disabled"
+		}
+	},
+	"invitePerson": {
+		"invitePeople": "Invite People",
+		"editPerson": "Edit Person",
+		"selectRole": "Select role",
+		"roleRequired": "Please select role",
+		"invite": "Invite"
+	},
+	"manageRoles": {
+		"title": "Manage your roles and permissions in here",
+		"addRole": "Add Role",
+		"roleName": "Role Name*",
+		"newRole": "Add New Role",
+		"editRole": "Edit Role",
+		"roleHelp": "This role can:",
+		"roleTakenError": "Role name already taken, please choose another",
+		"deleteConfirm": "Do you really want to delete role \"{{role}}\"?",
+		"deleteError": "Role \"{{role}}\" is assigned to some users, cannot delete",
+		"validations": {
+			"required": "Role Name is required",
+			"isLength": "Role Name must be 2 - 50 characters",
+			"isLowercase": "Role Name must be lowercase",
+			"matches": "Role Name must contain only lowercase letters, numbers and dashes"
+		},
+		"permissionGroupNames": {
+			"team": "Manage Recruiting Team",
+			"branding": "Manage Job Branding",
+			"jobPosting": "Manage Job Postings",
+			"candidates": "Manage Candidates",
+			"reporting": "Reporting",
+			"messageTemplates": "Message Templates"
+		}
+	},
+	"permissionNames": {
+		"recruiterteam_authorize": "Login to recruiter team",
+		"recruiterteam_create_edit_recruiters": "Manage recruiters",
+		"recruiterteam_view_recruiters": "View recruiters",
+		"recruiterteam_manage_roles": "Edit role definitions",
+		"recruiterteambrand_create_edit_brands": "Manage team brands",
+		"corpbrand_view": "View corporate brands",
+		"activitylog_view_download": "View/download user activity audit logs",
+		"job_create_edit_drafts": "Create/edit own jobs",
+		"job_publish_own_drafts": "Publish own drafts",
+		"job_view_edit_own_jobs": "Manage own jobs",
+		"job_view_edit_all_jobs": "View/create/edit jobs for other team members",
+		"job_publish_all_drafts": "Publish drafts of other team members",
+		"job_publish_external_boards": "Publish to external job boards",
+		"pipeline_view_own": "View candidate pipelines and details for own jobs",
+		"pipeline_view_all": "View all pipelines of other team members (excluding my own jobs)",
+		"report_view_own_recruiting": "View reports for own recruiting",
+		"report_view_all_recruiting": "View reports for teamwide recruiting",
+		"integration_create_edit": "Set credentials and defaults for external job boards",
+		"multi_manage_users": "Invite / disable users and set role assignments",
+		"multi_manage_brands": "Create/edit team brands",
+		"multi_edit_team_jobs": "Edit job postings of other team members",
+		"message_templates_manage_own": "Manage own message templates",
+		"message_templates_manage_team": "Manage teamwide message templates"
+	},
+	"manageBrands": {
+		"title": "Brands",
+		"createNew": "Create new brand",
+		"headers": {
+			"name": "Name",
+			"logo": "Logo",
+			"actions": "Actions"
+		},
+		"notifications": {
+			"selectionError": "Error during image selection",
+			"coverSize": "File must be at least 720x400, landscape",
+			"logoSize": "logo must be at least 160px x 160px",
+			"logoSquare": "logo must be square"
+		},
+		"brandForm": {
+			"newBrand": "Create New Brand",
+			"editBrand": "Edit Brand",
+			"nameLabel": "Brand Name*",
+			"nameRequired": "Brand name is required",
+			"nameLong": "Brand name cannot have more than 100 characters",
+			"corpBrandSelect": "Select Corp Brand",
+			"urlLabel": "Custom Job Widget URL",
+			"urlError": "Must be a valid URL",
+			"primaryColor": "Primary Color",
+			"secondaryColor": "Secondary Color",
+			"textColor": "Text Color",
+			"colorError": "Expecting 6 digit hex color, like \"33aaff\"",
+			"logo": "Logo",
+			"selectLogo": "Select Logo",
+			"coverImage": "Cover Image",
+			"selectCoverImage": "Select Cover Image"
+		}
+	},
+	"manageTemplates": {
+		"title": "Message Templates",
+		"createNew": "Create new message template",
+		"insertVariable": "Insert variable…",
+		"name": "Name",
+		"messageTemplateText": "Message template text:",
+		"unknownVariables": "Unknown variables",
+		"selectReplyTemplate": "Select reply from a template…"
+	},
+	"teamSettings": {
+		"duration": {
+			"title": "Default job posting duration",
+			"days": "Days",
+			"months": "Months",
+			"years": "Years"
+		},
+		"enablePortfolio": "Enable Candidate Portfolio",
+		"portfolioWarning": "Please note that Candidate Portfolio is currently in beta stage. It will become a paid feature when released officialy."
+	},
+	"accountSettings": {
+		"title": "Account Settings",
+		"notifications": {
+			"emailUsed": "The email entered is already in use",
+			"saved": "Settings saved successfully"
+		},
+		"firstName": "First Name*",
+		"firstNameRequired": "First Name is required",
+		"firstNameLength": "First Name cannot have more than 50 characters",
+		"lastName": "Last Name*",
+		"lastNameRequired": "Last Name is required",
+		"lastNameLength": "Last Name cannot have more than 50 characters",
+		"email": "Email Address*",
+		"emailRequired": "Email Address is required",
+		"emailFormat": "Email is invalid",
+		"emailLength": "Email cannot have more than 254 characters",
+		"userInvited": "{{firstName}} {{lastName}} succesfully invited"
+	},
+	"passwordSettings": {
+		"changePassword": "Change Password",
+		"notifications": {
+			"changeSuccess": "Successfully changed your password",
+			"changeError": "Couldn't change your password",
+			"passwordChanged": "Password changed successfully"
+		},
+		"password": "New Password*",
+		"passwordRequired": "Password is required",
+		"passwordLength": "Password length should be between 8 and 50 characters",
+		"confirmPassword": "Confirm Password*",
+		"passwordsDifferent": "Passwords don't match"
+	}
 }
