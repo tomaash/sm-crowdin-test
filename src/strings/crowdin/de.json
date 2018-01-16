@@ -48,7 +48,7 @@
 		"username": "Benutzername",
 		"password": "Passwort",
 		"passwordRequired": "Passwort ist erforderlich",
-		"passChangeReq": "asswortwechsel Anfrage erfolgreich gesendet. Bitte überprüfen Sie Ihren Posteingang und folgen Sie den Anweisungen. ",
+		"passChangeReq": "Passwortwechsel Anfrage erfolgreich gesendet. Bitte überprüfen Sie Ihren Posteingang und folgen Sie den Anweisungen.",
 		"backToLogin": "Zurück zur Anmeldung",
 		"forgotPassword": "Passwort vergessen?"
 	},
