@@ -1,0 +1,488 @@
+{
+	"shared": {
+		"logo": "StartMonday logo",
+		"isRequired": "ist erforderlich",
+		"enterStageName": "Bühnenname eingeben",
+		"addStage": "Bühne hinzufügen ...",
+		"ok": "OK",
+		"cancel": "Abbrechen",
+		"edit": "Bearbeiten",
+		"delete": "Löschen",
+		"save": "Speichern",
+		"send": "Senden",
+		"create": "Erstellen",
+		"saveChanges": "Änderungen speichern",
+		"update": "Aktualisieren",
+		"candidateFail": "Fehler beim Laden der Kandidaten, um die Anhänge zu lesen",
+		"attachmentFail": "Anhänge nicht gefunden",
+		"prevPage": "Vorherige Seite",
+		"nextPage": "Nächste Seite",
+		"backToCandidate": "Zurück zum Kandidaten",
+		"settings": "Einstellungen",
+		"candidateSettingsDropdown": {
+			"edit": "Bearbeiten",
+			"duplicate": "Duplizieren",
+			"portfolio": "Portfolio",
+			"share": "Teilen",
+			"preview": "Vorschau",
+			"intakeEmail": "Einnahme E-Mail"
+		},
+		"logoutConfirm": "Sind Sie sicher, dass Sie sich abmelden möchten?",
+		"noPermission": "Sie haben keine Berechtigung zu {{permission}}",
+		"errorRedirecting": "{{error}}. Zur Jobliste umgeleitet...",
+		"errorProcessing": "Fehler bei der Bearbeitung Ihrer Anfrage"
+	},
+	"login": {
+		"goodToSee": "Gut dich wieder zu sehen!",
+		"err": {
+			"incorrectEmailOrPass": "Falsche E-Mail-Adresse oder Passwort. Bitte versuche es erneut.",
+			"cannotFindUserEmail": "Kann Benutzer nicht mit dieser E-Mail finden"
+		},
+		"notice": {
+			"passwordRecovery": "Eine Passwort-E-Mail wurde an Ihren Posteingang gesendet."
+		},
+		"resetPassword": "Passwort zurücksetzen",
+		"logIn": "Anmelden",
+		"forgottenPassword": "Passwort vergessen",
+		"yourEmail": "Deine E-Mail",
+		"username": "Benutzername",
+		"password": "Passwort",
+		"passwordRequired": "Passwort ist erforderlich",
+		"passChangeReq": "Passwortwechsel Anfrage erfolgreich gesendet. Bitte überprüfen Sie Ihren Posteingang und folgen Sie den Anweisungen.",
+		"backToLogin": "Zurück zur Anmeldung",
+		"forgotPassword": "Passwort vergessen?"
+	},
+	"page404": {
+		"code": "404",
+		"title": "Es gibt nichts hier",
+		"suggestion": "Sie können zurück zu gehen",
+		"link": "Home page"
+	},
+	"sidebar": {
+		"dropDownTitle": "Team verwalten",
+		"accountSettings": "Kontoeinstellungen",
+		"logOut": "Abmelden"
+	},
+	"splash": {
+		"almost": "Fast da ..."
+	},
+	"verifyForm": {
+		"join": "Beitreten",
+		"joinS4E": "Begleiten Sie StartMonday für Arbeitgeber",
+		"firstName": "Vorname",
+		"lastName": "Nachname",
+		"invitationFor": "Einladung für:",
+		"passwordRequired": "Passwort ist erforderlich",
+		"newPassword": "Neues Passwort",
+		"passwordLength": "Die Passwortlänge sollte zwischen 8 und 50 Zeichen liegen",
+		"confirmPassword": "Passwort bestätigen",
+		"passwordsDontMatch": "Passwörter stimmen nicht überein",
+		"policy": [
+			"Mit der Erstellung deines Kontos und der Verwendung von StartMonday stimmst du dem",
+			"Nutzungsbedingungen",
+			"und",
+			"Datenschutz-Bestimmungen",
+			"Wenn du diesen Bedingungen nicht zustimmst, kannst du den StartMonday nicht benutzen."
+		]
+	},
+	"jobList": {
+		"title": "Jobs",
+		"createJob": "Job erstellen",
+		"archivedButon": "Archivierte Job",
+		"showJobsFor": "Stellen Job für",
+		"allCandidates": "Alle Kandidaten",
+		"actionableItems": "Aktionspunkte",
+		"status": {
+			"All": "Alles",
+			"Public": "Öffentlichkeit",
+			"InviteOnly": "Nur-Einladen",
+			"Inactive": "Inaktiv",
+			"Archived": "Archiviert",
+			"Draft": "Entwurf"
+		}
+	},
+	"portfolioForm": {
+		"portfolioSent": "Candidate portfolio wurde erfolgreich an {{email}} gesendet",
+		"notes": "Notizen",
+		"notesRequired": "Bitte füllen Sie einige Notizen für die Rezensenten aus",
+		"notesLength": "Notizen können nicht mehr als 1000 Zeichen haben"
+	},
+	"jobForm": {
+		"jobFormStageNames": {
+			"Info": "Job Info",
+			"Settings": "Job Einstellungen",
+			"Pipeline": "Pipeline",
+			"Publishing": "Veröffentlichen"
+		},
+		"createJob": "Einen neuen Job erstellen",
+		"editJob": "Job bearbeiten",
+		"jobDescription": "Jobbeschreibung",
+		"updateDraft": "Entwurf aktualisieren",
+		"notifications": {
+			"unsavedWarning": "Sie haben Änderungen an diesem Job nicht gespeichert.",
+			"fixErrors": "Bitte beheben Sie zuerst die Fehler",
+			"discard": "Verlieren und beenden",
+			"save": "Speichern und beenden",
+			"continue": "Zurück zur Bearbeitung",
+			"failedJob": "Job {{id}} konnte nicht geladen werden",
+			"duplicateJob": "Sie bearbeiten jetzt ein Duplikat von Job {{title}}",
+			"failedPipeline": "Fehler beim Laden der Pipeline für Job {{id}}",
+			"jobCreated": "Ein neuer Job wurde erfolgreich erstellt: {{title}}",
+			"changesSaved": "Änderungen wurden erfolgreich gespeichert",
+			"cannotSave": "Job konnte nicht gespeichert werden",
+			"deleteDraft": "Möchten Sie den Entwurf \"{{title}}\" wirklich löschen?",
+			"jobDeleted": "Job wurde erfolgreich gelöscht: {{title}}"
+		},
+		"fieldsInfo": {
+			"jobTitle": "Job Titel*",
+			"brand": "Marke*",
+			"selectBrand": "Marke auswählen...",
+			"location": "Ort*",
+			"shortDescription": "Kurzbeschreibung*",
+			"addJobDescription": "Jobbeschreibung hinzufügen..."
+		},
+		"fieldsSettings": {
+			"selectJobType": "Jobtyp auswählen",
+			"showPayInfo": "Lohn-Info anzeigen",
+			"currency": "Währung",
+			"from": "Von",
+			"to": "Nach",
+			"time": "Zeit",
+			"offsite": "Offsite (Heimarbeit)",
+			"willSponsor": "Wird Sponsor",
+			"requireDocuments": "Benötigen Sie Dokumente",
+			"owner": "Besitzer*",
+			"selectOwner": "Job-Besitzer auswählen..."
+		},
+		"jobTypeOptions": {
+			"regular": "Regelmäßig",
+			"internship": "Praktikum",
+			"studentJob": "Student Job",
+			"eventProject": "Veranstaltung / Projekt",
+			"volunteer": "Freiwilliger"
+		},
+		"fullTimeOptions": {
+			"true": "Vollzeit",
+			"false": "Teilzeit"
+		},
+		"permanentOptions": {
+			"true": "Permanent",
+			"false": "Vorübergehend"
+		},
+		"timeUnitOptions": {
+			"year": "Pro Jahr",
+			"month": "Pro Monat",
+			"week": "Pro Woche",
+			"day": "Pro Tag",
+			"hour": "Pro Stunde",
+			"onetime": "Einmal"
+		},
+		"fieldsStages": {
+			"title": "Einstellunge pipeline Stufen"
+		},
+		"fieldsPublish": {
+			"setStatus": "Setzen Sie einen Status für den Job",
+			"jobBoards": "Veröffentlichen in Jobbörsen",
+			"location": "Ort",
+			"selectLocation": "Ort auswählen",
+			"boardName": "Jobbörse name",
+			"daysAlive": "Tage lebendig",
+			"outsideEU": "Außerhalb der EU",
+			"feedId": "Feed ID",
+			"industry": "Branche",
+			"selectIndustry": "Wählen Sie eine Branche aus",
+			"blockStatusInput": "Dieser Job ist derzeit ein Entwurf. Bitte beheben Sie Validierungsfehler, um veröffentlichen zu können.",
+			"statusSelectRemark": "Dieser Job ist derzeit ein Entwurf. Bitte wählen Sie einen der oben genannten Status aus, um veröffentlichen zu können.",
+			"archiveDisabled": "Um einen Job archivieren zu können, musst du eine Entscheidung über jeden Kandidaten in der",
+			"pipelineLink": " Pipeline treffen ",
+			"deleteDraft": "Entwurf löschen"
+		},
+		"validations": {
+			"titleRequired": "Titel ist erforderlich",
+			"titleLong": "Titel kann nicht mehr als 150 Zeichen",
+			"shortDescriptionRequired": "Kurzbeschreibung ist erforderlich",
+			"shortDescriptionLong": "Kurzbeschreibung kann nicht mehr als 150 Zeichen",
+			"feedIdLong": "Feed ID kann nicht mehr als 10 Zeichen",
+			"descriptionRequired": "Beschreibung ist erforderlich",
+			"brandRequired": "Marke ist erforderlich",
+			"locationRequired": "Ort ist erforderlich",
+			"selectOne": "Bitte wählen Sie eine Option",
+			"daysAliveRequired": "Tage lebendig ist erforderlich",
+			"daysAliveZero": "Tage lebendig muss mindestens 1 sein"
+		},
+		"statusDescription": {
+			"Public": "sichtbar in den StartMonday Handy-Apps und in Ihrem Karriere-Site-Widget",
+			"InviteOnly": "nur sichtbar für Kandidaten, mit denen du einen Link geteilt hast",
+			"Inactive": "Der Job ist vorübergehend unsichtbar für alle Arbeitssuchende, aber Ihre Einstellung Pipeline bleibt wie-ist",
+			"Archived": "aus der Jobliste entfernt (alle Kandidaten in der Pipeline müssen zuerst entfernt werden)"
+		}
+	},
+	"pipeline": {
+		"pipeline": "Pipeline",
+		"resolvedCandidates": "Gelöste Kandidaten",
+		"addCandidate": "Kandidat hinzufügen",
+		"dragTo": "Ziehe den Kandidaten zum",
+		"decisionNames": {
+			"hire": "Mieten",
+			"reject": "Disqualifizieren",
+			"archive": "Talent-Pool"
+		},
+		"undo": "Rückgängig",
+		"undoNotice": "Dieser Kandidat wurde bereits {{decision}} - Sie können sie wieder in die Pipeline bringen, aber natürlich, wenn sie bereits benachrichtigt wurden, gibt es keine Möglichkeit, das jetzt rückgängig zu machen. Möglicherweise müssen Sie sie kontaktieren und erklären. Vorgehen?",
+		"inboxStageEmpty": "Kandidaten erscheinen hier, wenn du noch nicht bereit bist, sie zu kontaktieren. Füge Kandidaten hinzu, indem du oben rechts auf diesen Bildschirm \"Kandidat hinzufügen\" klickst. Ziehen Sie Kandidaten hier raus, wenn Sie sie kontaktiert haben, um sie zu anderen Pipeline-Stufen zu bringen.",
+		"videoStageEmpty": "Ziehe Kandidaten hier, um sie automatisch einzuladen ein Video einreichen.",
+		"hired": "Gemietet",
+		"rejected": "Abgelehnt",
+		"autoContactNotice": "Das Verschieben dieses Kandidaten aus dem Inbox kann automatisierten Kontakt fordern. Bist du sicher?"
+	},
+	"candidateDetails": {
+		"appliedFor": "angewandt für:",
+		"favorite": "Favorit",
+		"noVideo": "Dieser Kandidat hat noch kein Video eingereicht.",
+		"noDocuments": "Dieser Kandidat hat noch keine Unterlagen vorgelegt.",
+		"urlCopied": "Wir haben die URL dieses Kandidaten in Ihre Zwischenablage kopiert",
+		"attachments": "Anhänge",
+		"generalInfo": "Allgemeine Info",
+		"phone": "Telefon",
+		"address": "Adresse",
+		"socialMedia": "Social media",
+		"fluentLanguages": "Fließend Sprachen",
+		"emailAddress": "E-Mail Adresse",
+		"chat": "Chat",
+		"notes": "Notizen",
+		"reviews": "Bewertungen",
+		"typeNote": "Tippen Sie um eine Notiz zu speichern"
+	},
+	"candidateDecision": {
+		"sendMessage": "Eine Benachrichtigung schicken",
+		"withoutMessage": "Keine Benachrichtigung",
+		"typeHere": "Geben Sie hier eine Nachricht ein..."
+	},
+	"documentAdd": {
+		"uploadSuccess": "Erfolgreicher Upload",
+		"uploadFailed": "Anhang-Upload fehlgeschlagen, bitte versuchen Sie es erneut",
+		"addDocuments": "Dokumente hinzufügen",
+		"fileTooBig": "Die Datei, die Sie anhängen wollten, war zu groß. Maximale Größe ist {{size}}"
+	},
+	"chat": {
+		"noConversation": "Noch keine Konversation gestartet - geben Sie eine Nachricht unten ein, um diesen Kandidaten zu kontaktieren.",
+		"hitEnter": "Tippen Sie zu antworten und drücken Sie \"Enter\" zu senden",
+		"replyError": "Konnte keine Antwort senden, bitte versuchen Sie es erneut"
+	},
+	"reports": {
+		"ownJobs": "Ihre Job-Metriken",
+		"teamJobs": "Team Job-Metriken",
+		"reports": "Berichte"
+	},
+	"jobReport": {
+		"isLoading": "Laden Sie Ihren Bericht ...",
+		"ownTitle": "Zeigen Sie Ihre wichtigsten Nummern für Ihre eigenen Jobs",
+		"teamTitle": "Zeigen Sie Ihre wichtigsten Nummern für die Jobs Ihres Teams",
+		"timeRange": "Zeitbereich:",
+		"download": "Download als .csv",
+		"loadReport": "Bericht Laden",
+		"selectRange": "Zeitbereich auswählen",
+		"ranges": {
+			"1y": "Letztes 1 Jahr",
+			"30d": "Letzte 30 Tage",
+			"7d": "Letzte 7 Tage",
+			"24h": "Letzte 24 Stunden",
+			"custom": "Benutzdefinierte"
+		},
+		"statuses": {
+			"active/public": "Aktiv / Öffentlichkeit",
+			"active/invite-only": "Aktiv / Nur-Einladen",
+			"inactive": "Inaktiv",
+			"archived": "Archiviert"
+		},
+		"dashboard": {
+			"totalApplied": "Insgesamt Angewendet",
+			"totalAddedVideo": "Insgesamt Video Hinzugefügt",
+			"totalAddedDoc": "Insgesamt Dokument Hinzugefügt",
+			"totalDisqualified": "Insgesamt Disqualifiziert",
+			"totalHired": "Insgesamt Gemietet"
+		},
+		"headers": {
+			"job": "Job",
+			"applied": "Angewendet",
+			"addedVideo": "Video Hinzugefügt",
+			"addedDoc": "Dokument Hinzugefügt",
+			"noAction": "Keine Aktion Noch",
+			"inProcess": "In Bearbeitung",
+			"disqualified": "Disqualifiziert",
+			"hired": "Gemietet"
+		},
+		"csvHeaders": {
+			"jobStatus": "Jobstatus",
+			"jobTitle": "Jobsbezeichnung",
+			"jobBrandName": "Job Markenname",
+			"jobLocation": "Job Ort",
+			"jobOwner": "Job Besitzer"
+		}
+	},
+	"managePage": {
+		"title": "Team verwalten",
+		"people": "Personen",
+		"roles": "Rollen",
+		"brands": "Marken",
+		"integrations": "Integrationen"
+	},
+	"managePeople": {
+		"title": "Personen",
+		"filter": "Filter",
+		"peopleState": "<b>{{active}}</b> aktive Teammitglieder (von <b>{{max}}</b> max.)",
+		"needMore": "Brauchen Sie mehr?",
+		"increaseSubject": "Ich brauche die Größe von {{team}} erhöhen",
+		"headers": {
+			"name": "Name",
+			"email": "Email",
+			"actions": "Aktionnen",
+			"role": "Rolle"
+		},
+		"status": {
+			"active": "Mitglieder",
+			"unverified": "Ausstehende",
+			"disabled": "Behindert"
+		}
+	},
+	"invitePerson": {
+		"invitePeople": "Personen einladen",
+		"editPerson": "Person bearbeiten",
+		"selectRole": "Rolle auswählen",
+		"roleRequired": "Bitte Rolle auswählen",
+		"invite": "Einladen"
+	},
+	"manageRoles": {
+		"title": "Verwalten Sie Ihre Rollen und Berechtigungen hier",
+		"addRole": "Rolle hinzufügen",
+		"roleName": "Rollenname *",
+		"newRole": "Neue Rolle hinzufügen",
+		"editRole": "Rolle bearbeiten",
+		"roleHelp": "Diese Rolle kann:",
+		"roleTakenError": "Role Name bereits genommen, bitte wählen Sie eine andere",
+		"deleteConfirm": "Möchten Sie die Rolle \"{{role}}\" wirklich löschen?",
+		"deleteError": "Rolle \"{{role}}\" ist einigen Benutzern zugewiesen, kann nicht gelöscht werden",
+		"validations": {
+			"required": "Rollenname ist erforderlich",
+			"isLength": "Rollenname muss 2 - 50 Zeichen lang sein",
+			"isLowercase": "Rollenname muss Kleinbuchstaben sein",
+			"matches": "Rollenname darf nur Kleinbuchstaben, Zahlen und Bindestriche enthalten"
+		},
+		"permissionGroupNames": {
+			"team": "Recruiting-Team verwalten",
+			"branding": "Jobmarke verwalten",
+			"jobPosting": "Job-Angebote verwalten",
+			"candidates": "Kandidaten verwalten",
+			"reporting": "Berichterstattung",
+			"messageTemplates": "Nachrichtenvorlagen"
+		}
+	},
+	"permissionNames": {
+		"recruiterteam_authorize": "Anmelden zum Recruiter-Team",
+		"recruiterteam_create_edit_recruiters": "Verwalten von Personalvermittlern",
+		"recruiterteam_view_recruiters": "Anzeigen Personalvermittler",
+		"recruiterteam_manage_roles": "Rollendefinitionen bearbeiten",
+		"recruiterteambrand_create_edit_brands": "Team-Marken verwalten",
+		"corpbrand_view": "Anzeigen Firmenmarken",
+		"activitylog_view_download": "Anzeigen / Herunterladen von Benutzeraktivität Prüfprotokollen",
+		"job_create_edit_drafts": "Eigene Jobs erstellen / bearbeiten",
+		"job_publish_own_drafts": "Eigene Entwürfe veröffentlichen",
+		"job_view_edit_own_jobs": "Eigene Jobs verwalten",
+		"job_view_edit_all_jobs": "Anzeigen / Erstellen / Bearbeiten von Aufträgen für andere Teammitglieder",
+		"job_publish_all_drafts": "Veröffentlichen Entwürfe anderer Teammitglieder",
+		"job_publish_external_boards": "Veröffentlichen auf externe Jobbörsen",
+		"pipeline_view_own": "Kandidaten-Pipelines und Details für eigene Jobs anzeigen",
+		"pipeline_view_all": "Alle Pipelines anderer Teammitglieder ansehen (ohne meine eigenen Jobs)",
+		"report_view_own_recruiting": "Berichte für eigene Rekrutierung ansehen",
+		"report_view_all_recruiting": "Berichte für teamweiten Rekrutierung ansehen",
+		"integration_create_edit": "Festlegen Anmeldeinformationen und Voreinstellungen für externe Jobbörsen",
+		"multi_manage_users": "Benutzer einladen / deaktivieren und Rollenzuweisungen setzen",
+		"multi_manage_brands": "Teammarken erstellen / bearbeiten",
+		"multi_edit_team_jobs": "Jobbeiträge von anderen Teammitgliedern bearbeiten",
+		"message_templates_manage_own": "Eigene Nachrichtenvorlagen verwalten",
+		"message_templates_manage_team": "Team-Nachrichtenvorlagen verwalten"
+	},
+	"manageBrands": {
+		"title": "Marken",
+		"createNew": "Neue Marke erstellen",
+		"headers": {
+			"name": "Name",
+			"logo": "Logo",
+			"actions": "Aktionen"
+		},
+		"notifications": {
+			"selectionError": "Fehler bei der Bildauswahl",
+			"coverSize": "Bild muss mindestens 720x400 sein, Landschaft",
+			"logoSize": "Logo muss mindestens 160px x 160px sein",
+			"logoSquare": "Logo muss quadratisch sein"
+		},
+		"brandForm": {
+			"newBrand": "Neue Marke erstellen",
+			"editBrand": "Marke bearbeiten",
+			"nameLabel": "Markenname*",
+			"nameRequired": "Markenname ist erforderlich",
+			"nameLong": "Markenname kann nicht mehr als 100 Zeichen",
+			"corpBrandSelect": "Firmenmarke auswählen",
+			"urlLabel": "Benutzerdefinierte Job Widget URL",
+			"urlError": "Muss eine gültige URL sein",
+			"primaryColor": "Primärfarbe",
+			"secondaryColor": "Sekundärfarbe",
+			"textColor": "Textfarbe",
+			"colorError": "Erwartung 6-stellige Hexe Farbe, wie \"33aaff\"",
+			"logo": "Logo",
+			"selectLogo": "Logo auswählen",
+			"coverImage": "Titelbild",
+			"selectCoverImage": "Titelbild auswählen"
+		}
+	},
+	"manageTemplates": {
+		"title": "Nachrichtenvorlagen",
+		"createNew": "Neue Nachrichtenvorlage erstellen",
+		"insertVariable": "Variable einfügen…",
+		"name": "Name",
+		"messageTemplateText": "Nachrichtenvorlage text:",
+		"unknownVariables": "Unbekannte Variablen",
+		"selectReplyTemplate": "Antwort aus Vorlage…"
+	},
+	"teamSettings": {
+		"duration": {
+			"title": "Standarddauer der Stellenanzeige",
+			"days": "Tage",
+			"months": "Monate",
+			"years": "Jahre"
+		},
+		"enablePortfolio": "Candidate Portfolio Aktivieren",
+		"portfolioWarning": "Bitte beachten Sie, dass Candidate Portfolio derzeit in der Beta-Phase ist. Es wird zu einem kostenpflichtigen Feature, wenn es offiziell freigegeben wird."
+	},
+	"accountSettings": {
+		"title": "Kontoeinstellungen",
+		"notifications": {
+			"emailUsed": "Die eingegebene E-Mail wird bereits verwendet",
+			"saved": "Einstellungen wurden erfolgreich gespeichert"
+		},
+		"firstName": "Vorname*",
+		"firstNameRequired": "Vorname ist erforderlich",
+		"firstNameLength": "Vorname darf nicht mehr als 50 Zeichen haben",
+		"lastName": "Nachname*",
+		"lastNameRequired": "Nachname ist erforderlich",
+		"lastNameLength": "Nachname darf nicht mehr als 50 Zeichen haben",
+		"email": "E-mail*",
+		"emailRequired": "E-mail ist erforderlich",
+		"emailFormat": "E-Mail ist ungültig",
+		"emailLength": "E-Mail kann nicht mehr als 254 Zeichen haben",
+		"userInvited": "{{firstName}} {{lastName}} erfolgreich eingeladen"
+	},
+	"passwordSettings": {
+		"changePassword": "Passwort ändern",
+		"notifications": {
+			"changeSuccess": "Ihr Passwort wurde erfolgreich geändert",
+			"changeError": "Ihr Passwort konnte nicht geändert werden",
+			"passwordChanged": "Passwort wurde erfolgreich geändert"
+		},
+		"password": "Nues Passwort*",
+		"passwordRequired": "Passwort ist erforderlich",
+		"passwordLength": "Die Passwortlänge sollte zwischen 8 und 50 Zeichen liegen",
+		"confirmPassword": "Bestätige das Passwort*",
+		"passwordsDifferent": "Passwörter stimmen nicht überein"
+	}
+}
